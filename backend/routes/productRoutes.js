@@ -8,7 +8,7 @@ import {
   deleteProduct,
   createProductReview,
   getTopProducts,
-} from '../controllers/productController.js';
+} from '../controllers/ProductController.js';
 
 
 import { protect, admin } from '../middleware/authMiddleware.js';
